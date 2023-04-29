@@ -1,6 +1,6 @@
 # Eingesackt
 
-**Eingesackt** or *(Bagged)* is planned to be a lightweight modular portable storage mod themed around backpacks with optional configurable features **TBD**
+**Eingesackt** or *(Bagged)* is a planned to be lightweight modular portable storage mod themed around backpacks with optional configurable features **TBD**
 
 
 # **`THIS IS A EARLY WIP PROJECT`**   
