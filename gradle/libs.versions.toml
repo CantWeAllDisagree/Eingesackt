@@ -1,5 +1,4 @@
 [versions]
-# The latest versions are available at https://lambdaurora.dev/tools/import_quilt.html
 minecraft = "1.19.2"
 yarn= "1.19.2+build.28"
 fabricloader= "0.14.12"
