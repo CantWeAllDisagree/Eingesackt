@@ -1,0 +1,15 @@
+{
+  "itemGroup.bagged.backpack": "Säckar",
+
+  "ui.bagged.backpack": "Plecak",
+
+  "item.bagged.baby_backpack": "Plecaczek",
+  "item.bagged.ender_pouch": "Sakiewka Endu",
+
+  "item.bagged.frayed_backpack": "Postrzępiony plecak",
+  "item.bagged.plated_backpack": "Opancerzony plaecak",
+  "item.bagged.gilded_backpack": "Pozłacany plecak",
+  "item.bagged.bejeweled_backpack": "Plecak ozdobiony klejnotami",
+  "item.bagged.withered_backpack": "Witherowy plecak",
+  "item.bagged.endless_backpack": "Nieskończony plecak"
+}

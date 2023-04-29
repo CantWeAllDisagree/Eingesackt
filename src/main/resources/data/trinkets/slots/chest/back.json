@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "validator_predicates": [
+    "bagged:any_backpack"
+  ]
+}

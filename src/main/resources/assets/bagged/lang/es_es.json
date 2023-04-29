@@ -1,0 +1,22 @@
+{
+  "itemGroup.bagged.backpack": "Säckar",
+
+  "ui.bagged.backpack": "Mochila",
+
+  "item.bagged.baby_backpack": "Mochila de bebé",
+  "item.bagged.ender_pouch": "Mochila de ender",
+
+  "item.bagged.frayed_backpack": "Mochila gastada",
+  "item.bagged.plated_backpack": "Mochila blindada",
+  "item.bagged.gilded_backpack": "Mochila dorada",
+  "item.bagged.bejeweled_backpack": "Mochila enjoyada",
+  "item.bagged.blazing_backpack": "Mochila flameante",
+  "item.bagged.withered_backpack": "Mochila marchita",
+  "item.bagged.endless_backpack": "Mochila sin fin",
+
+  "bagged.advancement.baby_backpack.title": "Bolsa de obsequios",
+  "bagged.advancement.baby_backpack.description": "¡Perfecta para regalos festivos!",
+
+  "category.bagged.keybindings": "Säckar",
+  "key.bagged.open_backpack": "Abrir la mochila"
+}

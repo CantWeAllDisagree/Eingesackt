@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "translate": "bagged.advancement.ender_pouch.title"
+        },
+        "description": {
+            "translate": "bagged.advancement.ender_pouch.description"
+        },
+        "icon": {
+            "item": "bagged:ender_pouch"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "backpack": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "bagged:ender_pouch"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "bagged:frayed_backpack"
+}

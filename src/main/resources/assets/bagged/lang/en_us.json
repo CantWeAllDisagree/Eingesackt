@@ -1,0 +1,39 @@
+{
+  "itemGroup.bagged.backpack": "Bagged",
+
+  "ui.bagged.backpack": "Backpack",
+  "screen.bagged.backpack_screen": "Backpack",
+  "item.bagged.baby_backpack": "Baby Backpack",
+  "item.bagged.ender_pouch": "Ender Pouch",
+
+  "item.bagged.frayed_backpack": "Frayed Backpack",
+  "item.bagged.plated_backpack": "Plated Backpack",
+  "item.bagged.gilded_backpack": "Gilded Backpack",
+  "item.bagged.bejeweled_backpack": "Bejeweled Backpack",
+  "item.bagged.blazing_backpack": "Blazing Backpack",
+  "item.bagged.withered_backpack": "Withered Backpack",
+  "item.bagged.endless_backpack": "Endless Backpack",
+
+  "bagged.advancement.baby_backpack.title": "Goody Bag",
+  "bagged.advancement.baby_backpack.description": "Perfect for party gifts!",
+  "bagged.advancement.ender_pouch.title": "Ender Access",
+  "bagged.advancement.ender_pouch.description": "Sticking your hand inside this bag makes it appear inside your Enderchest...",
+
+  "bagged.advancement.frayed_backpack.title": "Backpack Beginnings",
+  "bagged.advancement.frayed_backpack.description": "It's not much, but it's mine! Craft a Frayed Backpack to expand your inventory space.",
+  "bagged.advancement.plated_backpack.title": "Leveling Up",
+  "bagged.advancement.plated_backpack.description": "Surround your Frayed Backpack with Iron Ingots to expand its storage capabilities.",
+  "bagged.advancement.gilded_backpack.title": "Gilded Expansions",
+  "bagged.advancement.gilded_backpack.description": "Enhance your Plated Backpack by plating it with gold. Shiny!",
+  "bagged.advancement.bejeweled_backpack.title": "Cover Me With Various Gems",
+  "bagged.advancement.bejeweled_backpack.description": "Stick some rare gems on your Gilded Backpack to make it even shinier!",
+  "bagged.advancement.blazing_backpack.title": "Fiery Alternatives",
+  "bagged.advancement.blazing_backpack.description": "Plate your backpack with Netherite to make it immune to fire & lava.",
+  "bagged.advancement.withered_backpack.title": "Withering Expanse",
+  "bagged.advancement.withered_backpack.description": "Enhance your shiny backpack with a trophy obtained by the desolate king.",
+  "bagged.advancement.endless_backpack.title": "The End",
+  "bagged.advancement.endless_backpack.description": "Obtain the ultimate backpack, fueled by the power of The End.",
+
+  "category.bagged.keybindings": "Bagged",
+  "key.bagged.open_backpack": "Open Backpack"
+}

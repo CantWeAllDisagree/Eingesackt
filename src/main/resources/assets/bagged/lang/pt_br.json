@@ -1,0 +1,22 @@
+{
+  "itemGroup.bagged.backpack": "Säckar",
+
+  "ui.bagged.backpack": "Mochila",
+
+  "item.bagged.baby_backpack": "Minimochila",
+  "item.bagged.ender_pouch": "Pochete de ender",
+
+  "item.bagged.frayed_backpack": "Mochila barata",
+  "item.bagged.plated_backpack": "Mochila laminada",
+  "item.bagged.gilded_backpack": "Mochila dourada",
+  "item.bagged.bejeweled_backpack": "Mochila ornada",
+  "item.bagged.blazing_backpack": "Mochila ardente",
+  "item.bagged.withered_backpack": "Mochila do Nether",
+  "item.bagged.endless_backpack": "Mochila do fim",
+
+  "bagged.advancement.baby_backpack.title": "Já é um começo",
+  "bagged.advancement.baby_backpack.description": "Perfeita para dar de presente!",
+
+  "category.bagged.keybindings": "Säckar",
+  "key.bagged.open_backpack": "Abrir mochila"
+}

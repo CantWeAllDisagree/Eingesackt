@@ -1,0 +1,39 @@
+{
+  "itemGroup.bagged.backpack": "Säckar",
+
+  "ui.bagged.backpack": "Рюкзак",
+
+  "item.bagged.baby_backpack": "Маленький рюкзак",
+  "item.bagged.ender_pouch": "Сумка Энда",
+
+  "item.bagged.frayed_backpack": "Изношенный рюкзак",
+  "item.bagged.plated_backpack": "Железный рюкзак",
+  "item.bagged.gilded_backpack": "Золотой рюкзак",
+  "item.bagged.bejeweled_backpack": "Алмазный рюкзак",
+  "item.bagged.blazing_backpack": "Пылающий рюкзак",
+  "item.bagged.withered_backpack": "Визер рюкзак",
+  "item.bagged.endless_backpack": "Рюкзак Энда",
+
+  "bagged.advancement.baby_backpack.title": "Прекрасный рюкзак",
+  "bagged.advancement.baby_backpack.description": "Идеально подходит для подарков на вечеринку!",
+  "bagged.advancement.ender_pouch.title": "Эндер доступ",
+  "bagged.advancement.ender_pouch.description": "Если засунуть руку внутрь этого рюкзака, она появится внутри вашего эндер-сундука.",
+
+  "bagged.advancement.frayed_backpack.title": "Начало рюкзака",
+  "bagged.advancement.frayed_backpack.description": "Это немного, но это моё! Создайте Изношенный рюкзак, чтобы расширить место в инвентаре.",
+  "bagged.advancement.plated_backpack.title": "Повышение уровня",
+  "bagged.advancement.plated_backpack.description": "Окружите свой Изношенный рюкзак железными слитками, чтобы расширить возможности его хранения.",
+  "bagged.advancement.gilded_backpack.title": "Золотые расширения",
+  "bagged.advancement.gilded_backpack.description": "Улучшите свой Железный рюкзак, покрыв его золотом. Блестящий!",
+  "bagged.advancement.bejeweled_backpack.title": "Покрой меня разными драгоценностями",
+  "bagged.advancement.bejeweled_backpack.description": "Прикрепите несколько редких драгоценных камней к своему Золотому рюкзаку, чтобы сделать его ещё блестяще!",
+  "bagged.advancement.blazing_backpack.title": "Огненные альтернативы",
+  "bagged.advancement.blazing_backpack.description": "Покройте свой рюкзак незеритом, чтобы сделать его невосприимчивым к огню и лаве.",
+  "bagged.advancement.withered_backpack.title": "Иссушающее пространство",
+  "bagged.advancement.withered_backpack.description": "Улучшите свой блестящий рюкзак добавлением Звезды Незера.",
+  "bagged.advancement.endless_backpack.title": "Конец",
+  "bagged.advancement.endless_backpack.description": "Получите лучший рюкзак, наполненный силой Энда.",
+
+  "category.bagged.keybindings": "Säckar",
+  "key.bagged.open_backpack": "Открыть рюкзак"
+}

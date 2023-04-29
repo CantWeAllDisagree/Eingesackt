@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "bagged",
+  "version": "${version}",
+  "name": "Eingesackt",
+  "description": "Bag's N More",
+  "authors": [
+    "CantWeAllDisagree"
+  ],
+  "contributors": [
+    "Draylar",
+    "shedaniel",
+    "OmegaJak",
+    "Globox_Z",
+    "Pois1x"
+  ],
+  "license": "GNU GPL V3",
+  "icon": "assets/bagged/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cantwe.alldisagree.Bagged"
+    ],
+    "client": [
+      "cantwe.alldisagree.BaggedClient"
+    ],
+    "shulkerboxtooltip": [
+      "cantwe.alldisagree.compat.BaggedShulkerBoxTooltipCompat"
+    ]
+  },
+  "mixins": [
+    "bagged.mixins.json",
+    "bagged.trinkets.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "~1.19.2",
+    "java": ">=17"
+  }
+}

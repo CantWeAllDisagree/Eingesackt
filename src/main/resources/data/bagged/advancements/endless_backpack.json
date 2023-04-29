@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "translate": "bagged.advancement.endless_backpack.title"
+        },
+        "description": {
+            "translate": "bagged.advancement.endless_backpack.description"
+        },
+        "icon": {
+            "item": "bagged:endless_backpack"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "backpack": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "bagged:endless_backpack"
+                            ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "bagged:withered_backpack"
+}

@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "translate": "bagged.advancement.withered_backpack.title"
+        },
+        "description": {
+            "translate": "bagged.advancement.withered_backpack.description"
+        },
+        "icon": {
+            "item": "bagged:withered_backpack"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "backpack": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "bagged:withered_backpack"
+                            ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "bagged:bejeweled_backpack"
+}

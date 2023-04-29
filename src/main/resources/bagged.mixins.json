@@ -1,0 +1,21 @@
+ {
+  "required": true,
+  "package": "cantwe.alldisagree.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BaggedKeybindsAccessor",
+    "PlayerDropMixin",
+    "PlayerInventoryScreenMixin",
+    "ShapedRecipeMixin",
+    "client.PlayerEntityFeatureMixin"
+  ],
+  "client": [
+    "ItemStackMixin",
+    "client.SoundEventAccessor",
+    "client.BackpackHandledScreenMixin",
+    "compat.TrinketBackpackRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

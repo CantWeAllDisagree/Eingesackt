@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "translate": "bagged.advancement.baby_backpack.title"
+        },
+        "description": {
+            "translate": "bagged.advancement.baby_backpack.description"
+        },
+        "icon": {
+            "item": "bagged:baby_backpack"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "backpack": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items":[
+                            "bagged:baby_backpack"
+                            ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "bagged:frayed_backpack"
+}
