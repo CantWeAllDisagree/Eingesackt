@@ -2,6 +2,7 @@
   "required": true,
   "package": "cantwe.alldisagree.mixins",
   "compatibilityLevel": "JAVA_17",
+   "plugin": "cantwe.alldisagree.mixins.BaggedMixinsPlugin",
   "mixins": [
     "BaggedKeybindsAccessor",
     "PlayerDropMixin",
@@ -11,8 +12,12 @@
   ],
   "client": [
     "ItemStackMixin",
-    "client.SoundEventAccessor",
     "client.BackpackHandledScreenMixin",
+    "client.CottonClientScreenMixin",
+    "client.HandledScreenMixin",
+    "client.IntegratedServerLoaderMixin",
+    "client.InventoryScreenMixin",
+    "client.SoundEventAccessor",
     "compat.TrinketBackpackRendererMixin"
   ],
   "injectors": {

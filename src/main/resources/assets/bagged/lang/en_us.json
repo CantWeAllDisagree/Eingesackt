@@ -1,8 +1,8 @@
 {
-  "itemGroup.bagged.backpack": "Bagged",
+  "itemGroup.bagged.backpack": "Eingesackt",
 
-  "ui.bagged.backpack": "Backpack",
-  "screen.bagged.backpack_screen": "Backpack",
+  "ui.bagged.backpack": "Eingesackt",
+  "screen.bagged.backpack_screen": "Eingesackt",
   "item.bagged.baby_backpack": "Baby Backpack",
   "item.bagged.ender_pouch": "Ender Pouch",
 

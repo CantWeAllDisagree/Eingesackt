@@ -2,14 +2,12 @@ package cantwe.alldisagree.util;
 
 import cantwe.alldisagree.network.ServerNetworking;
 import cantwe.alldisagree.ui.BackpackHandledScreen;
+import cantwe.alldisagree.api.InventoryTab;
+import cantwe.alldisagree.registry.TabRegistry;
 import io.netty.buffer.Unpooled;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
-
-import net.libz.api.InventoryTab;
-import net.libz.registry.TabRegistry;
-
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.item.ItemStack;
 import net.minecraft.network.PacketByteBuf;
