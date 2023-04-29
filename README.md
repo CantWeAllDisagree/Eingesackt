@@ -29,7 +29,7 @@ If you install [Trinkets](https://www.curseforge.com/minecraft/mc-mods/trinkets-
 
 For previewing Backpacks, try out [ShulkerBoxTooltip](https://www.curseforge.com/minecraft/mc-mods/shulkerboxtooltip)!
 
-- [ ] ***NEEDS FIXING***
+- [x] ***NEEDS FIXING***
 
 
 ## Configuration ⚙
@@ -37,7 +37,7 @@ For previewing Backpacks, try out [ShulkerBoxTooltip](https://www.curseforge.com
 Eingesackt is fully configurable through the `config/bagged.json` file found in your game directory.
 
 - [ ] ***CONFIG TO BE REDONE***
-- [ ] ***Open Sound needs to be fixed***
+- [x] ***Open Sound needs to be fixed***
 
 ---
 

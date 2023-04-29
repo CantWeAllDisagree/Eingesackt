@@ -4,11 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cantwe.alldisagree.api.*;
+import cantwe.alldisagree.ui.BackpackHandledScreen;
+import cantwe.alldisagree.util.BackpackTab;
 import cantwe.alldisagree.util.SortList;
 import cantwe.alldisagree.BaggedClient;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
+import net.minecraft.text.Text;
 
 
 @Environment(EnvType.CLIENT)
@@ -47,5 +50,7 @@ public class TabRegistry {
             BaggedClient.otherTabs.put(parentClass, list);
         }
     }
-
+    public static void init() {
+        TabRegistry.registerInventoryTab(new BackpackTab(Text.translatable("screen.bagged.backpack_screen"), null, -1, BackpackHandledScreen.class));
+    }
 }

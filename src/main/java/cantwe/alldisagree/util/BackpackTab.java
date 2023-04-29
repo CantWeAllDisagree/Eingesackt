@@ -39,9 +39,4 @@ public class BackpackTab extends InventoryTab {
     public void onClick(MinecraftClient client) {
         ClientPlayNetworking.send(ServerNetworking.OPEN_BACKPACK, new PacketByteBuf(Unpooled.buffer()));
     }
-
-    // Had to outsource registry here
-    public static void init() {
-        TabRegistry.registerInventoryTab(new BackpackTab(Text.translatable("screen.bagged.backpack_screen"), null, -1, BackpackHandledScreen.class));
-    }
 }

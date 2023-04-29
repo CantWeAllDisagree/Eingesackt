@@ -7,6 +7,7 @@ import java.util.List;
 
 
 import cantwe.alldisagree.item.BackpackItem;
+import cantwe.alldisagree.registry.TabRegistry;
 import cantwe.alldisagree.util.BackpackTab;
 import cantwe.alldisagree.api.TrinketCompat;
 import cantwe.alldisagree.client.BaggedKeybinds;
@@ -33,7 +34,7 @@ public class BaggedClient implements ClientModInitializer {
     @Override
     public void onInitializeClient()
     {
-        BackpackTab.init();
+        TabRegistry.init();
 
         HandledScreens.register(Bagged.CONTAINER_TYPE, BackpackHandledScreen::new);
         BaggedKeybinds.initialize();

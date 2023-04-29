@@ -41,7 +41,6 @@ public class Bagged implements ModInitializer {
     public static final Identifier CONTAINER_ID = id("backpack");
     public static final ItemGroup GROUP = FabricItemGroupBuilder.build(CONTAINER_ID, () -> new ItemStack(Registry.ITEM.get(id("frayed_backpack"))));
     public static final BaggedConfig CONFIG = OmegaConfig.register(BaggedConfig.class);
-    //public static final ScreenHandlerType<BackpackScreenHandler> CONTAINER_TYPE = ScreenHandlerRegistry.registerExtended(CONTAINER_ID, BackpackScreenHandler::new);
     public static final ScreenHandlerType<BackpackScreenHandler> CONTAINER_TYPE = Registry.register(Registry.SCREEN_HANDLER, CONTAINER_ID, new ExtendedScreenHandlerType<>(BackpackScreenHandler::new));
     public static final List<BackpackItem> BACKPACKS = new ArrayList<>();
     public static final Item ENDER_POUCH = Registry.register(Registry.ITEM, id("ender_pouch"), new EnderBackpackItem());

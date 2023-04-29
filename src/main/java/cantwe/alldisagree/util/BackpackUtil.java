@@ -34,7 +34,7 @@ public class BackpackUtil {
     private static final BackpackModel backpackModel = new BackpackModel(BackpackModel.getTexturedModelData().createModel());
     private static final BabyBackpackModel babyBackpackModel = new BabyBackpackModel(BabyBackpackModel.getTexturedModelData().createModel());
 
-    public static boolean renderBackpack(PlayerEntityModel playerEntityModel, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light, ItemStack itemStack) {
+    public static void renderBackpack(PlayerEntityModel playerEntityModel, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light, ItemStack itemStack) {
         if (itemStack.getItem() instanceof BackpackItem) {
             matrices.push();
             ModelPart modelPart = playerEntityModel.body;
@@ -63,20 +63,8 @@ public class BackpackUtil {
             }
             backpackModel.render(matrices, vertexConsumer, light, OverlayTexture.DEFAULT_UV, f, g, h, 1.0F);
             matrices.pop();
-            return true;
         }
-        return false;
     }
-
-    public static boolean isBackpackEquipped(PlayerEntity playerEntity) {
-        if (playerEntity.getEquippedStack(EquipmentSlot.CHEST).getItem() instanceof BackpackItem)
-            return true;
-        else if (isTrinketsLoaded)
-            return TrinketsApi.getTrinketComponent(playerEntity).orElseThrow().isEquipped(stack -> stack.getItem() instanceof BackpackItem);
-        else
-            return false;
-    }
-
     @Nullable
     public static ItemStack getEquippedBackpack(PlayerEntity playerEntity) {
         if (isTrinketsLoaded && TrinketsApi.getTrinketComponent(playerEntity).get().isEquipped(stack -> stack.getItem() instanceof BackpackItem))

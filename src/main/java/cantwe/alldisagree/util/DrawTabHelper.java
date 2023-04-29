@@ -59,7 +59,7 @@ public class DrawTabHelper {
                             client.getItemRenderer().renderInGui(inventoryTab.getItemStack(client), xPos + 4, y - 17);
                         }
 
-                        if (!isSelectedTab && isPointWithinBounds(x, y, xPos - x + 1, -20, 22, 19, (double) mouseX, (double) mouseY)) {
+                        if (!isSelectedTab && isPointWithinBounds(x, y, xPos - x + 1, -20, 19, (double) mouseX, (double) mouseY)) {
                             shownTooltip = inventoryTab.getTitle();
                         }
                         xPos += 25;
@@ -86,12 +86,11 @@ public class DrawTabHelper {
                 list = BaggedClient.inventoryTabs;
             }
             if (list != null) {
-                for (int i = 0; i < list.size(); i++) {
-                    InventoryTab inventoryTab = list.get(i);
+                for (InventoryTab inventoryTab : list) {
                     if (inventoryTab.shouldShow(client)) {
                         boolean isSelectedTab = inventoryTab.isSelectedScreen(screenClass.getClass());
                         if (inventoryTab.canClick(screenClass.getClass(), client)
-                                && isPointWithinBounds(x, y, xPos - x + 1, isSelectedTab ? -24 : -20, 22, isSelectedTab ? 23 : 19, (double) mouseX, (double) mouseY)) {
+                                && isPointWithinBounds(x, y, xPos - x + 1, isSelectedTab ? -24 : -20, isSelectedTab ? 23 : 19, (double) mouseX, (double) mouseY)) {
                             inventoryTab.onClick(client);
                         }
                         xPos += 25;
@@ -101,7 +100,7 @@ public class DrawTabHelper {
         }
     }
 
-    private static boolean isPointWithinBounds(int xPos, int yPos, int x, int y, int width, int height, double pointX, double pointY) {
-        return (pointX -= (double) xPos) >= (double) (x - 1) && pointX < (double) (x + width + 1) && (pointY -= (double) yPos) >= (double) (y - 1) && pointY < (double) (y + height + 1);
+    private static boolean isPointWithinBounds(int xPos, int yPos, int x, int y, int height, double pointX, double pointY) {
+        return (pointX -= (double) xPos) >= (double) (x - 1) && pointX < (double) (x + 22 + 1) && (pointY -= (double) yPos) >= (double) (y - 1) && pointY < (double) (y + height + 1);
     }
 }

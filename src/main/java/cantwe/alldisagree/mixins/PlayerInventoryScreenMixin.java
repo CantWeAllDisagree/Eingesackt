@@ -19,7 +19,7 @@ public abstract class PlayerInventoryScreenMixin extends Slot {
     }
 
     @Inject(method = "canTakeItems(Lnet/minecraft/entity/player/PlayerEntity;)Z", at = @At("HEAD"), cancellable = true)
-    private void checkUnequip(PlayerEntity playerEntity, CallbackInfoReturnable<Boolean> cir) {
+    private void checkUnequipped(PlayerEntity playerEntity, CallbackInfoReturnable<Boolean> cir) {
         ItemStack itemStack = getStack();
         if(itemStack.getItem() instanceof BackpackItem) {
             if(Bagged.CONFIG.requireEmptyForUnequip) {

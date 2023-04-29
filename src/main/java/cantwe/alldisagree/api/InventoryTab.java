@@ -55,8 +55,8 @@ public class InventoryTab {
     }
 
     public boolean isSelectedScreen(Class<?> screenClass) {
-        for (int i = 0; i < screenClasses.length; i++) {
-            if (screenClasses[i].equals(screenClass)) {
+        for (Class<?> aClass : screenClasses) {
+            if (aClass.equals(screenClass)) {
                 return true;
             }
         }
