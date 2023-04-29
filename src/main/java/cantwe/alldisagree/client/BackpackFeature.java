@@ -30,21 +30,21 @@ public class BackpackFeature extends FeatureRenderer<AbstractClientPlayerEntity,
 
         BackpackUtil.renderBackpack(this.getContextModel(), matrices, vertexConsumers, light, player.getEquippedStack(EquipmentSlot.CHEST));
 
-        if(chestSlot.getItem() instanceof BackpackItem) {
-            matrices.push();
+        //if(chestSlot.getItem() instanceof BackpackItem) {
+            //matrices.push();
 
             // Initial transformation
-            matrices.multiply(Vec3f.POSITIVE_X.getDegreesQuaternion(180));
-            matrices.translate(0, -0.2, -0.25);
+           // matrices.multiply(Vec3f.POSITIVE_X.getDegreesQuaternion(180));
+           // matrices.translate(0, -0.2, -0.25);
 
             // Shifting
-            if(player.isSneaking()) {
-                matrices.multiply(Vec3f.POSITIVE_X.getDegreesQuaternion(25));
-                matrices.translate(0, -0.2, 0);
-            }
+           // if(player.isSneaking()) {
+           //     matrices.multiply(Vec3f.POSITIVE_X.getDegreesQuaternion(25));
+           //     matrices.translate(0, -0.2, 0);
+          // }
 
-            MinecraftClient.getInstance().getItemRenderer().renderItem(chestSlot, ModelTransformation.Mode.FIXED, light, OverlayTexture.DEFAULT_UV, matrices, vertexConsumers, 0);
-            matrices.pop();
-        }
+          //  MinecraftClient.getInstance().getItemRenderer().renderItem(chestSlot, ModelTransformation.Mode.FIXED, light, OverlayTexture.DEFAULT_UV, matrices, vertexConsumers, 0);
+          //  matrices.pop();
+      //  }
     }
 }

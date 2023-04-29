@@ -11,9 +11,12 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.network.PacketByteBuf;
 import net.minecraft.screen.ScreenHandler;
 import net.minecraft.server.network.ServerPlayerEntity;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
 import net.minecraft.util.Hand;
+import net.minecraft.util.Identifier;
 import net.minecraft.util.TypedActionResult;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.NotNull;
 
@@ -32,11 +35,17 @@ public class BackpackItem extends Item {
 
         // Only allow the user to open the backpack with right-click if the disableInteractOpening option is false.
         // This option is synced S2C through OmegaConfig, which is why we can bundle client & server calls inside the same config check.
-        if(!Bagged.CONFIG.requireArmorTrinketToOpen) {
+        if (!Bagged.CONFIG.requireArmorTrinketToOpen) {
             user.setCurrentHand(hand);
-            openScreen(user, user.getStackInHand(hand));
-            return TypedActionResult.success(user.getStackInHand(hand));
+
+        if (Bagged.CONFIG.playSound) {
+            if (world.isClient) {
+                world.playSound(user, user.getBlockPos(), Registry.SOUND_EVENT.get(new Identifier(backpack.getOpenSound())), SoundCategory.PLAYERS, 1, 1);
+            }
         }
+        openScreen(user, user.getStackInHand(hand));
+        return TypedActionResult.success(user.getStackInHand(hand));
+    }
 
         return TypedActionResult.pass(user.getStackInHand(hand));
     }

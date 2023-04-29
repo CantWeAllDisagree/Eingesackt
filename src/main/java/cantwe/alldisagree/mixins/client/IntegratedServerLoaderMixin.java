@@ -12,7 +12,7 @@ import net.minecraft.server.integrated.IntegratedServerLoader;
 @Mixin(value = IntegratedServerLoader.class, priority = 999)
 public class IntegratedServerLoaderMixin {
 
-    @ModifyVariable(method = "Lnet/minecraft/server/integrated/IntegratedServerLoader;start(Lnet/minecraft/client/gui/screen/Screen;Ljava/lang/String;ZZ)V", at = @At(value = "INVOKE_ASSIGN", target = "Lnet/minecraft/world/SaveProperties;getLifecycle()Lcom/mojang/serialization/Lifecycle;"), ordinal = 1)
+    @ModifyVariable(method = "start(Lnet/minecraft/client/gui/screen/Screen;Ljava/lang/String;ZZ)V", at = @At(value = "INVOKE_ASSIGN", target = "Lnet/minecraft/world/SaveProperties;getLifecycle()Lcom/mojang/serialization/Lifecycle;"), ordinal = 1, argsOnly = true)
     private boolean startMixin(boolean original) {
         return false;
     }

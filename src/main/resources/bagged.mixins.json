@@ -17,8 +17,7 @@
     "client.HandledScreenMixin",
     "client.IntegratedServerLoaderMixin",
     "client.InventoryScreenMixin",
-    "client.SoundEventAccessor",
-    "compat.TrinketBackpackRendererMixin"
+    "client.SoundEventAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
