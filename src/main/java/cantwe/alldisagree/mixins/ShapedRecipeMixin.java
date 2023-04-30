@@ -1,7 +1,6 @@
 package cantwe.alldisagree.mixins;
 
 import cantwe.alldisagree.item.BackpackItem;
-import net.fabricmc.fabric.api.util.NbtType;
 import net.minecraft.inventory.CraftingInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtElement;

@@ -19,7 +19,7 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.screen.PlayerScreenHandler;
 import net.minecraft.text.Text;
 
-// Could inject into Screen class but imo unnecessary
+// Could inject into Screen class but imo unnecessary //TODO Replace with crafting book style inventory
 @Environment(EnvType.CLIENT)
 @Mixin(InventoryScreen.class)
 public abstract class InventoryScreenMixin extends AbstractInventoryScreen<PlayerScreenHandler> implements Tab {
