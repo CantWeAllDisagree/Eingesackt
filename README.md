@@ -1,6 +1,6 @@
-![](C:\Users\CantWeAllDisagree\repos\bagged\resources\craft.png)
+![](https://github.com/CantWeAllDisagree/Eingesackt/blob/main/resources/craft.png)
 
-# Eingesackt  ![](C:\Users\CantWeAllDisagree\repos\bagged\src\main\resources\assets\bagged\textures\item\eingesackt_backpack.png)
+# Eingesackt  ![](https://github.com/CantWeAllDisagree/Eingesackt/blob/main/src/main/resources/assets/bagged/textures/item/eingesackt_backpack.png)
 
 **Eingesackt** or *(Bagged)* is a planned to be lightweight, modular, 
 portable storage mod themed around backpacks with optional configurable features
@@ -32,7 +32,7 @@ If you find any compatibility issue's make sure to post in the [issue tracker](h
 
 - [ ] **Needs fixes, Bugs Still Present**
 
-![](C:\Users\CantWeAllDisagree\repos\bagged\resources\screenshot.png)
+![](https://github.com/CantWeAllDisagree/Eingesackt/blob/main/resources/screenshot.png)
 
 
 
