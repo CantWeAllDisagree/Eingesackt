@@ -45,20 +45,21 @@ Eingesackt is fully configurable through the `config/bagged.json` file found in 
 
 ## To Do
 - [x] ***Open Sound needs to be fixed***
-- [ ] **Create new bags/new assets**
-- [ ] **CONFIG TO BE REDONE**
-- [ ] **Add new bag types**
-
+- [ ] **ModMenu Config Support**
+- [ ] **Replace UI With Crafting Book style UI system**
+- [ ] **Create new bags / assets**
+- [ ] **Add Native [ShulkerBoxTooltip](https://www.curseforge.com/minecraft/mc-mods/shulkerboxtooltip) support**
+- [ ] **Dynamic Bag Textures / Compat**
 
 ### CREDIT
 
 *I am in no way claiming ownership of the original mods or assets  
 all credits to the original authors and any dependencies they credit*
 
-*May change without Notice due to removal of placeholder code/assets or additions*
+*May change without Notice due to removal / addition of placeholder code/assets*
 
-[Inmis](https://github.com/Draylar/inmis) [`Draylar`](https://github.com/Draylar)  
-[InmisAddon](https://github.com/Globox1997/InmisAddon) [`Globox1997`](https://github.com/Globox1997)
+[Inmis](https://github.com/Draylar/inmis) [`Draylar`](https://github.com/Draylar): For the base code / assets  
+[InmisAddon](https://github.com/Globox1997/InmisAddon) [`Globox1997`](https://github.com/Globox1997): For the models & Inventory Tabs
 
 
 ## Eingesackt  Copyright (C) 2023 CantWeAllDisagree   
