@@ -2,7 +2,7 @@
 
 # Eingesackt  ![](C:\Users\CantWeAllDisagree\repos\bagged\src\main\resources\assets\bagged\textures\item\eingesackt_backpack.png)
 
-**Eingesackt** or *(Bagged)* is planned to be a lightweight, modular, 
+**Eingesackt** or *(Bagged)* is a planned to be lightweight, modular, 
 portable storage mod themed around backpacks with optional configurable features
 
 ---
