@@ -1,9 +1,7 @@
 package cantwe.alldisagree.util;
 
 import cantwe.alldisagree.network.ServerNetworking;
-import cantwe.alldisagree.ui.BackpackHandledScreen;
 import cantwe.alldisagree.api.InventoryTab;
-import cantwe.alldisagree.registry.TabRegistry;
 import io.netty.buffer.Unpooled;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

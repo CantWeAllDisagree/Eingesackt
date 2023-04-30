@@ -3,6 +3,7 @@
 
   "ui.bagged.backpack": "Eingesackt",
   "screen.bagged.backpack_screen": "Eingesackt",
+  "item.bagged.eingesackt_backpack": "Eingesackt",
   "item.bagged.baby_backpack": "Baby Backpack",
   "item.bagged.ender_pouch": "Ender Pouch",
 
@@ -19,6 +20,8 @@
   "bagged.advancement.ender_pouch.title": "Ender Access",
   "bagged.advancement.ender_pouch.description": "Sticking your hand inside this bag makes it appear inside your Enderchest...",
 
+  "bagged.advancement.eingesackt_backpack.title": "That's not a Purse it's a Satchel.",
+  "bagged.advancement.eingesackt_backpack.description": "You've learned the forbidden knowledge of Eingesackt!",
   "bagged.advancement.frayed_backpack.title": "Backpack Beginnings",
   "bagged.advancement.frayed_backpack.description": "It's not much, but it's mine! Craft a Frayed Backpack to expand your inventory space.",
   "bagged.advancement.plated_backpack.title": "Leveling Up",
@@ -35,5 +38,5 @@
   "bagged.advancement.endless_backpack.description": "Obtain the ultimate backpack, fueled by the power of The End.",
 
   "category.bagged.keybindings": "Bagged",
-  "key.bagged.open_backpack": "Open Backpack"
+  "key.bagged.open_backpack": "Open Bag"
 }

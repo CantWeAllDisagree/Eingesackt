@@ -8,7 +8,6 @@ import java.util.List;
 
 import cantwe.alldisagree.item.BackpackItem;
 import cantwe.alldisagree.registry.TabRegistry;
-import cantwe.alldisagree.util.BackpackTab;
 import cantwe.alldisagree.api.TrinketCompat;
 import cantwe.alldisagree.client.BaggedKeybinds;
 import cantwe.alldisagree.ui.BackpackHandledScreen;

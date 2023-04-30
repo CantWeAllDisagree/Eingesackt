@@ -1,16 +1,15 @@
-# Eingesackt
+![](C:\Users\CantWeAllDisagree\repos\bagged\resources\craft.png)
 
-**Eingesackt** or *(Bagged)* is planned to be a lightweight modular portable storage mod themed around backpacks with optional configurable features **TBD**
+# Eingesackt  ![](C:\Users\CantWeAllDisagree\repos\bagged\src\main\resources\assets\bagged\textures\item\eingesackt_backpack.png)
 
+**Eingesackt** or *(Bagged)* is a planned to be lightweight, modular, 
+portable storage mod themed around backpacks with optional configurable features
 
-# **`THIS IS A EARLY WIP PROJECT`**   
+---
+## **THIS IS A EARLY WIP PROJECT** 
 
-### **There will be issues**
+### **There will be bugs / issues and incomplete features**
 
-⚠️ 	⚠️ 	⚠️ 	⚠️ 	⚠️ 	⚠️ 	⚠️ 	⚠️ ⚠️	
-
-*Assets and code subject to change*   
-⚠️ 	⚠️ 	⚠️ 	⚠️ 	⚠️ 	⚠️ 	⚠️ 	⚠️ 	⚠️ 	
 
 Eingesackt is a fork of [Inmis](https://github.com/Draylar/inmis) & [InmisAddon](https://github.com/Globox1997/InmisAddon) 
 Why have 2 mods for backpacks when you could just have one! 
@@ -29,17 +28,26 @@ If you install [Trinkets](https://www.curseforge.com/minecraft/mc-mods/trinkets-
 
 For previewing Backpacks, try out [ShulkerBoxTooltip](https://www.curseforge.com/minecraft/mc-mods/shulkerboxtooltip)!
 
-- [x] ***NEEDS FIXING***
+If you find any compatibility issue's make sure to post in the [issue tracker](https://github.com/CantWeAllDisagree/Eingesackt/issues)
+
+- [ ] **Needs fixes, Bugs Still Present**
+
+![](C:\Users\CantWeAllDisagree\repos\bagged\resources\screenshot.png)
+
 
 
 ## Configuration ⚙
 
 Eingesackt is fully configurable through the `config/bagged.json` file found in your game directory.
 
-- [ ] ***CONFIG TO BE REDONE***
-- [x] ***Open Sound needs to be fixed***
 
 ---
+
+## To Do
+- [x] ***Open Sound needs to be fixed***
+- [ ] **Create new bags/new assets**
+- [ ] **CONFIG TO BE REDONE**
+- [ ] **Add new bag types**
 
 
 ### CREDIT

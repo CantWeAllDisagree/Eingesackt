@@ -22,10 +22,7 @@ public class BaggedMixinsPlugin implements IMixinConfigPlugin {
 
     @Override
     public boolean shouldApplyMixin(String targetClassName, String mixinClassName) {
-        if (mixinClassName.contains("CottonClientScreenMixin") && !FabricLoader.getInstance().isModLoaded("libgui"))
-            return false;
-
-        return true;
+        return !mixinClassName.contains("CottonClientScreenMixin") || FabricLoader.getInstance().isModLoaded("libgui");
     }
 
     @Override

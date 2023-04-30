@@ -1,12 +1,10 @@
 package cantwe.alldisagree.mixins.client;
 
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-
 import io.github.cottonmc.cotton.gui.GuiDescription;
 import io.github.cottonmc.cotton.gui.client.CottonClientScreen;
 import net.fabricmc.api.EnvType;
@@ -19,14 +17,9 @@ import net.minecraft.text.Text;
 @Environment(EnvType.CLIENT)
 @Mixin(CottonClientScreen.class)
 public abstract class CottonClientScreenMixin extends Screen {
-
-    @Shadow
     protected GuiDescription description;
-    @Shadow
     protected int left = 0;
-    @Shadow
     protected int top = 0;
-
     public CottonClientScreenMixin(Text title) {
         super(title);
     }
